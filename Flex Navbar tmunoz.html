@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            color: aliceblue;
+            text-decoration: none;
+        }
+        .nav{
+            align-items: center;
+            display: flex;
+            background-color: #535353;
+            width: 900px;
+            
+        }
+        .nav-links{
+        
+            display: inline;
+        }
+        .nav-links > li {
+            display: inline-flex;
+            margin: 10px 10px;
+        }
+        .nav-links  .active {
+            font-weight: 600;
+        }
+        .nav-title {
+            margin-right: 300px;
+            margin-left: 20px;
+            font-weight: 300;
+            
+        }
+        .btn{
+            background-color: rgb(46, 177, 177);
+            color: white;
+            font-size: larger;
+            box-shadow: 0 4px 4px 0 #333333, 4px 4px 4px 0 #333333;
+            
+            border: 2px;
+            border-color: black;
+            border-style: solid;
+        }
+    </style>
+    <div class="nav">
+        <h1 class="nav-title">Profile</h1>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#" class="active">My Profile</a></li>
+            <li><a href="#">Find Connections</a></li>
+            <li><button class="btn">Sign Out</button></li>
+        </ul>
+    </div>
+    
+    
+</body>
+</html>
