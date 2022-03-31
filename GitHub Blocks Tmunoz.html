@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *{
+            margin: 10px;
+        }
+        .container{
+            margin: 10px;
+            
+            background-color: silver;
+            height: fit-content;
+            min-width:  fit-content;
+            max-width: 800px;
+        }
+        .octimg{
+            height: 200px; width: 200px;
+            min-width: 64px; min-height: 64px;
+            
+        }
+        h1, header{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 40px;
+            text-align: center;
+            align-content: center;
+            color: rgb(40, 43, 38);
+        }
+        .BoxRow{
+            padding: 10px;
+            align-items: center;
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .vertspace{
+            margin: 0px 20px 0px 20px;
+        }
+        #box1{
+            background-color: darkseagreen;
+        }
+        #box2{
+            background-color: rgb(39, 102, 121);
+        }
+        #box3{
+            background-color: rgb(68, 13, 56);
+        }
+        #topbar{
+            margin: 0px;
+            
+            border-color: black;
+            border-width: 2px;
+            border-style: solid;
+            width: auto;
+        }
+    </style>
+</body>
+<var id="imgrepo" hidden>https://octodex.github.com</var>
+
+    <div class="container">
+        <div id="topbar">
+        
+        </div>
+        <header> 
+            <h1>GitHub Blocks</h1>
+        </header>
+        <div class="BoxRow" id="box1">
+            <img class="octimg" src="https://octodex.github.com/images/class-act.png" alt="Class Act">
+            <div class="vertspace"></div>
+            <img class="octimg" src="https://octodex.github.com/images/octobiwan.jpg" alt="Octobi Wan Catnobi">
+            <div class="vertspace"></div>
+            <img class="octimg" src="https://octodex.github.com/images/scottocat.jpg" alt="Scottocat">
+        </div>
+        <div class="BoxRow" id="box2">
+            <img class="octimg" src="https://octodex.github.com/images/founding-father.jpg" alt="Founding Father">
+            <div class="vertspace"></div>
+            <img class="octimg" src="https://octodex.github.com/images/bear-cavalry.png" alt="Bear Cavalry">
+        </div>
+        <div class="BoxRow" id="box3">
+            <img class="octimg" src="https://octodex.github.com/images/steroidtocat.png" alt="Steroidtocat">
+            <div class="vertspace"></div>
+            <img class="octimg" src="https://octodex.github.com/images/privateinvestocat.jpg" alt="Private Investocat">
+            <div class="vertspace"></div>
+            <img class="octimg" src="https://octodex.github.com/images/justicetocat.jpg" alt="Justicetocat">
+        </div>
+    </div>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Position Practice</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <style> 
+        *{
+            margin: 10px 10px;
+        }
+        .container{
+            width: 960px;
+            background-color: silver;
+            margin: auto;
+            padding: 10px;
+        }
+        .side-nav, .main{
+            display: inline-block;
+        }
+        .top-nav {
+            display: block;
+            height: 150px;
+            background-color: green;
+            padding: 10px;
+        }
+
+        .side-nav {
+            height: 300px;
+            width: 200px;
+            background-color: blue;
+            margin: 10px 10px;
+            vertical-align: top;
+        }
+        .main {
+            height: 400px;
+            width: 700px;
+            padding-right: 15px;
+            background-color: red;
+            
+        }
+        .sub-content, #advertisement{
+            display: inline-block;
+        }
+        .sub-content {
+            height: 200px;
+            width: 210px;
+            background-color: yellow;
+            margin: 15px 0px 0px 15px;
+            padding: 0px;
+            float: left;
+
+        }
+        #advertisement {
+            height: 120px;
+            width: 660px;
+            background-color: purple;
+            margin: 20px 15px;
+        }
+        
+        
+    </style>
+    <div class="container">
+        <div class="top-nav"></div>
+        <div class="side-nav"></div>
+        <div class="main">
+            <div class="sub-content"></div>
+            <div class="sub-content"></div>
+            <div class="sub-content"></div>
+            <div id="advertisement"></div>
+        </div>
+    </div>
+</body>
+</html>
+
